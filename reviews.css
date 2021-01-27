@@ -1,0 +1,149 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.ul{
+
+    display: flex;
+    justify-content:  space-around;
+    max-width: 100%;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+#logo>img{
+    cursor: pointer;
+}
+
+input{
+    padding: 10px 10px 10px 20px;
+}
+
+hr{
+    background-color: lightgray;
+    height: 1px;
+    border:none;
+}
+
+
+#map{
+    margin: 0px;
+    width: 100%;
+}
+.content-box{
+    display: flex;
+    margin: 0px;
+}
+.main-function{
+    flex-basis: 0;
+    margin-right:50px;
+    margin-left:200px;
+    flex-grow: 3;
+}
+.map{
+    flex-basis: 0;
+    margin-top:10%;
+    flex-grow: 1;
+    height: 100vh;
+}
+button {
+    height:45px;
+    width:8%;
+    font-weight: bold;
+    font-size:18px;
+    border:1px solid gray;
+    background-color: white;
+
+}
+
+button, .red,.write, .photo, .read{
+    border-radius: 10px;
+}
+
+.red{
+    background-color:red;
+    border:1px solid red;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+    margin-right:20px;
+}
+.top{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+
+}
+.picture{
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    height:80%;
+    margin:20px;
+}
+.container{
+    display:grid;
+    grid-template-columns:20% 40%;
+    border:1px solid lightgray;
+    grid-gap:80px;
+    border-radius: 1%;
+    margin:30px auto;
+    height:300px;
+}
+.container:hover{
+    box-shadow: 3px 3px 10px 3px lightgray;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-function>p:nth-of-type(1){
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-content>p{
+    margin-left:15%;
+}
+
+.container-content>p:nth-of-type(1){
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.container-content>p:nth-of-type(2){
+    word-spacing: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.container-content>p:nth-of-type(3){
+    font-weight: 600;
+}
+.container-content>p:nth-of-type(4){
+    font-weight: 400;
+}
+
+footer{
+    background-color: lightgrey;
+    padding:20px;
+    text-align: center;
+    width: 100%;
+    color:gray;
+}
+
+.dummy-search-bar{
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    box-shadow: 2px 2px 15px 2px lightgray;
+}
+
+.navbar-dummy-btns{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:0.9%;
+}

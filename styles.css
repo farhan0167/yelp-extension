@@ -1,0 +1,166 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+hr{
+    background-color: lightgray;
+    height: 1px;
+    border:none;
+}
+
+input{
+    padding: 10px 10px 10px 20px;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+#logo>img{
+    cursor: pointer;
+}
+
+button {
+    height:45px;
+    width:8%;
+    font-weight: bold;
+    font-size:18px;
+    border:1px solid gray;
+    background-color: white;
+
+}
+
+button, .red,.write, .photo, .read{
+    border-radius: 10px;
+}
+
+
+.dummy-search-bar{
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    box-shadow: 2px 2px 15px 2px lightgray;
+}
+
+.navbar-dummy-btns{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:0.9%;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 40px;
+
+}
+.red{
+    background-color:red;
+    border:1px solid red;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+    margin-right:20px;
+
+}
+.sth{
+    display:grid;
+    grid-template-columns: repeat(4, 0fr);
+    height:auto;
+    background-color: white;
+    cursor: pointer;
+    justify-content: center;
+    padding:4px;
+    margin-bottom: 40px;
+}
+
+.picture{
+    width:400px;
+    height:390px;
+    vertical-align: middle;
+    object-fit: fit;
+}
+.content-header{
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: lightgrey;
+    padding:20px;
+    text-align: center;
+    width: 100%;
+    color:gray;
+}
+.write{
+     background-color: red;
+     color:white;
+     width: 25%;
+     font-weight: bold;
+     font-size: 20px;
+     border:1px solid red;
+     margin-left:20px;
+     cursor: pointer;
+}
+.photo{
+     background-color: white;
+     color:black;
+     width: 15%;
+     font-weight: bold;
+     font-size: 20px;
+     border:1px solid grey;
+     margin-left:20px;
+     cursor: pointer;
+}
+
+.read{
+    font-size: 20px;
+    width:15%;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.dummy{
+    width:70px;
+    height:59px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.restaurant-content{
+    padding-left:20%;
+    padding-right: 20%;
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.review>p:nth-of-type(1){
+    font-weight: 500;
+
+}
+.review>p:nth-of-type(2){
+    font-weight: 300;
+    margin-top:0px;
+}
+.review>p:nth-of-type(3){
+    font-weight: 300;
+    margin-top:0px;
+}
+.content-header>p{
+    font-size: 50px;
+    font-weight: 900;
+}

@@ -1,0 +1,23 @@
+.review-content>p{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.review-content{
+    margin: auto;
+    padding-top: 10%;
+    padding-left: 25%;
+    
+}
+
+
+textarea{
+    margin: auto;
+    width: inherit;
+    max-width: 100%;
+    
+}
+
+.review-content>input:nth-of-type(){
+    background-color:red;
+}
