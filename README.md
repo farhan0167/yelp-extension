@@ -4,7 +4,7 @@
 
 **Contributors**: Ahmad Farhan Ishraq, Urooj Nawaz, Chhiring Sherpa
 
-**Presentation Link**: https://youtu.be/Wu\_d2xtTPAE
+**Presentation Link**: https://youtu.be/Wu_d2xtTPAE
 
 ### Summary Overview:
 
